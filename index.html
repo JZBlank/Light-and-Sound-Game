@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <div id="image">
+      <img src="https://i.imgur.com/JmQTt16.png" alt="Image" width="350" height= "350">
+    </div>
+    <h1>Light and Sound Memory Game</h1>
+    <p>
+      Repeat the pattern back to win the game!
+    </p>
+    
+    <button id="startBtn" onclick="startGame()">
+      Start
+    </button>
+    
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+    
+    <div id="gameButtonArea">
+      <button id="button1" class="hidden" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"
+      <button><input type="image" src="https://cdn.glitch.com/4d4c45e9-fe4f-44ef-a3d4-dfe11e495255%2FLight3.png?v=1614239213315" style="width:99%; height:90%"></button>
+      <button id="button2" class="hidden" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"
+      <button><input type="image" src="https://cdn.glitch.com/4d4c45e9-fe4f-44ef-a3d4-dfe11e495255%2FLight.png?v=1614239213760" style="width:99%; height:90%"></button>
+      <button id="button3" class="hidden" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"
+      <button><input type="image" src="https://cdn.glitch.com/4d4c45e9-fe4f-44ef-a3d4-dfe11e495255%2FLight2.png?v=1614239213396" style="width:99%; height:90%"></button>
+      <button id="button4" class="hidden" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"
+      <button><input type="image" src="https://cdn.glitch.com/4d4c45e9-fe4f-44ef-a3d4-dfe11e495255%2FLight4.png?v=1614239213375" style="width:99%; height:90%"></button>
+    </div>
+
+  </body>
+</html>
